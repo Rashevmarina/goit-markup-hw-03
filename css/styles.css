@@ -76,7 +76,7 @@ body {
 
 }
 
-.web.link {
+.web {
     font-family: var(--second-primary-font);
     font-weight: 800;
     font-size: 18px;
@@ -210,6 +210,10 @@ body {
 }
 
 /* ----------section 2 ------------- */
+.visually-hidden {
+    display: none;
+}
+
 .about-us {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -313,6 +317,8 @@ body {
     list-style: none;
        display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4); 
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .portfolioimg {
@@ -328,10 +334,11 @@ body {
     margin-bottom: 8px;
 }
 .team-name {padding: 32px 16px;
+    margin-bottom: 8px;
 }
 
 /* -----footer------*/
-.footer-web {
+.footer-web.link {
     display: inline-block; 
     margin-bottom: 16px;
     font-family: var(--second-primary-font);
@@ -342,10 +349,6 @@ body {
     text-transform: uppercase;
     color: var(--accent-color);
     text-decoration: none;
-}
-.fotter-logo 
-{display: inline-block;
-    margin-bottom: 16px; 
 }
 
 .text {
