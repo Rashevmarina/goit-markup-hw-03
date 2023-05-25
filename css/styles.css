@@ -1,7 +1,6 @@
 img {
-    max-width: 100%;
     display: block;
-    width: auto;
+
 }
 
 h1,
@@ -21,12 +20,14 @@ ol {
 }
 
 .container {
-    width: 1158px;
-    display: inline-flex;
-    flex-direction: row;
-    gap: 40px;
+   
+        width: 1158px;
+        padding: 0 0;
+        margin: 0 auto;
 }
-
+.list {
+    display: flex;
+}
 :root {
     --primary-font: "Roboto", sans-serif;
     --second-primary-font: "Raleway", sans-serif;
@@ -53,7 +54,6 @@ body {
 
 .header-nav {
     display: flex;
-    align-items: center;
 }
 
 
@@ -89,8 +89,6 @@ body {
     flex-direction: row;
     align-items: center;
     flex-grow: 0;
-    left: 156px;
-    top: 24px;
     margin-right: 76px
 }
 
@@ -171,15 +169,19 @@ body {
 }
 
 /* ------section1------------ */
+.div-section-one {
+  
+}
 
 .name {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
     text-align: center;
     max-width: 496px;
+    margin: 0 472px 0 472px;
+    display: flex;
 }
 
 .section-os {
@@ -199,10 +201,13 @@ body {
     color: var(--white-color);
     cursor: pointer;
     display: block;
-    min-width: 169px;
-    height: 56px;
     border: none;
     border-radius: 4px;
+    gap: 10px;
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    margin-left: 636px;
 }
 
 .button:is(:hover, :focus) {
@@ -212,6 +217,7 @@ body {
 /* ----------section 2 ------------- */
 .visually-hidden {
     display: none;
+    overflow: hidden;
 }
 
 .about-us {
@@ -230,7 +236,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-color);
-    text-align: center; 
+    text-align: center;
 }
 
 .list-aboutus {
@@ -262,13 +268,13 @@ body {
 
 .feature-list.list {
     list-style: none;
-    display: flex; 
+    display: flex;
     gap: 24px;
 }
 
 .pictures {
     list-style: none;
-    width: calc((100% - 48px) / 3); 
+    width: calc((100% - 48px) / 3);
 }
 
 /* -------------------section 4 --------------------*/
@@ -286,7 +292,7 @@ body {
     text-transform: capitalize;
     color: var(--secondary-color);
     list-style: none;
-    margin-bottom: 72px; 
+    margin-bottom: 72px;
 }
 
 .portfolioimg link {
@@ -302,23 +308,24 @@ body {
     color: var(--secondary-color);
     background-color: var(--white-color);
     list-style: none;
-   
- 
+
+
 }
+
 .our-team-list {
- width: calc((100% - 72px) / 4); 
- border-radius: 0px 0px 4px 4px; 
- display: flex;
- gap: 24px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    display: flex;
+    gap: 24px;
 }
 
 
 .our-team-photo list {
     list-style: none;
-       display: flex;
+    display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4); 
-    border-radius: 0px 0px 4px 4px; 
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .portfolioimg {
@@ -330,16 +337,18 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center; 
+    text-align: center;
     margin-bottom: 8px;
 }
-.team-name {padding: 32px 16px;
+
+.team-name {
+    padding: 32px 16px;
     margin-bottom: 8px;
 }
 
 /* -----footer------*/
-.footer-web.link {
-    display: inline-block; 
+.footer-web {
+    display: inline-block;
     margin-bottom: 16px;
     font-family: var(--second-primary-font);
     font-weight: 800;
@@ -364,7 +373,6 @@ body {
 
 .footer-logo {
     color: var(--gray-background-color)
-
 }
 
 /* -------portfolio page-------- */
@@ -396,7 +404,7 @@ body {
     text-decoration: none;
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .list-portfoliobutton {
@@ -405,7 +413,7 @@ border-radius: 4px;
 
 .list-portfolioimg {
     list-style: none;
-    width: calc((100% - 48px) / 3); 
+    width: calc((100% - 48px) / 3);
 }
 
 .button_navportfolio:is(:hover, :focus) {
@@ -416,9 +424,9 @@ border-radius: 4px;
 }
 
 .full-navigation {
-    display: flex ;
+    display: flex;
     flex-wrap: wrap;
-    column-gap: 24px; 
+    column-gap: 24px;
     row-gap: 48px;
 
 }
@@ -426,6 +434,7 @@ border-radius: 4px;
 .portfolioimg {
     text-decoration: none;
 }
+
 .div-portfolio-item {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
