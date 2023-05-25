@@ -20,10 +20,10 @@ ol {
 }
 
 .container {
-   
-        width: 1158px;
-        padding: 0 0;
-        margin: 0 auto;
+
+    width: 1158px;
+    padding: 0 0;
+    margin: 0 auto;
 }
 
 :root {
@@ -50,9 +50,10 @@ body {
     border-bottom: 1px solid #e7e9fc;
     padding: 24px 0;
 }
+
 .header-nav {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 
@@ -114,8 +115,8 @@ body {
 .link-nav {
     list-style: none;
     display: flex;
- 
-   
+
+
 }
 
 .navigation-link:hover {
@@ -151,9 +152,10 @@ body {
     text-decoration: none;
 
 }
- a.contacts.link {
+
+a.contacts.link {
     margin: 24px 0 24px 0;
- }
+}
 
 .contacts.link:hover {
     color: var(--active-accent-background-color);
@@ -164,10 +166,7 @@ body {
 }
 
 /* ------section1------------ */
-.div-section-one {
-
-  
-}
+.div-section-one {}
 
 .name {
     font-size: 56px;
@@ -234,8 +233,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-color);
-    
+
 }
+
 .description.four {
     text-align: center;
 }
@@ -253,10 +253,7 @@ body {
 /* ---------section 3 -----------*/
 
 .section-menu {
-    margin-bottom: 120px;
-    margin-left: 156px;
-
-
+    padding: 120px 0px 120px 30px;
 }
 
 .feature-name {
@@ -278,6 +275,8 @@ body {
 .pictures {
     list-style: none;
     width: calc((100% - 48px) / 3);
+    margin-right: 24px;
+
 }
 
 /* -------------------section 4 --------------------*/
@@ -311,7 +310,11 @@ body {
     color: var(--secondary-color);
     background-color: var(--white-color);
     list-style: none;
-
+    display: block;
+    gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    margin: 0 24px 0 24px;
 
 }
 
@@ -320,20 +323,6 @@ body {
     border-radius: 0px 0px 4px 4px;
     display: flex;
     gap: 24px;
-}
-
-
-.our-team-photo list {
-    list-style: none;
-    display: flex;
-    gap: 24px;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.portfolioimg {
-    background: var(--white-color);
-    margin-bottom: 8px
 }
 
 .about-us-menu {
@@ -348,6 +337,11 @@ body {
 .team-name {
     padding: 32px 16px;
     margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
 }
 
 /* -----footer------*/
@@ -368,6 +362,10 @@ body {
     color: var(--gray-background-color);
     letter-spacing: 0.02em;
     line-height: 1.5;
+    margin-top: 16px;
+    margin-right: 880px;
+    margin-left: 0px;
+
 }
 
 .footer {
@@ -381,9 +379,11 @@ body {
 
 /* -------portfolio page-------- */
 
+
 .section-portfolio {
     list-style: none;
     padding: 96px 0 120px 0;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .button-list {
