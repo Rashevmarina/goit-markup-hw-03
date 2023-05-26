@@ -15,12 +15,12 @@ p {
 ul,
 ol {
     margin: 0px;
-    padding: 0px;
+    padding-left: 0px;
 }
 
 .container {
     width: 1158px;
-    padding: 0 0;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -329,13 +329,13 @@ a.contacts.link {
     background-color: var(--white-color);
     list-style: none;
     display: block;
-    flex-basis: calc((100% - 72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     margin-right: 24px;
 }
 
 .our-team-list {
-    width: calc((100% - 72px) / 4);
+
     border-radius: 0px 0px 4px 4px;
     display: flex;
     gap: 24px;
