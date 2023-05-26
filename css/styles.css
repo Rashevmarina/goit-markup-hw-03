@@ -46,7 +46,6 @@ body {
     display: flex;
     margin: 0 auto;
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
 }
 
 .header-nav {
@@ -56,11 +55,9 @@ body {
 
 
 .header-div {
-    width: 1158px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0 auto;
+    
     display: flex;
+    align-items: center;
 
 }
 
@@ -153,10 +150,6 @@ body {
 
 }
 
-a.contacts.link {
-    margin: 24px 0 24px 0;
-}
-
 .contacts.link:hover {
     color: var(--active-accent-background-color);
 }
@@ -204,11 +197,11 @@ a.contacts.link {
     border: none;
     border-radius: 4px;
     gap: 10px;
-    position: absolute;
     width: 169px;
     height: 56px;
-    margin-left: 522px;
     min-width: 169px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button:is(:hover, :focus) {
@@ -268,7 +261,7 @@ a.contacts.link {
 /* ---------section 3 -----------*/
 
 .section-menu {
-    padding: 0px 0px 120px 30px;
+    padding-bottom: 120px;
     margin-bottom: 0px;
 }
 
@@ -291,9 +284,7 @@ a.contacts.link {
 .pictures {
     list-style: none;
     width: calc((100% - 48px)/3);
-    margin-right: 24px;
     border: 1px solid #E7E9FC;
-    border-left: 156px;
 
 }
 
@@ -331,12 +322,11 @@ a.contacts.link {
     display: block;
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    margin-right: 24px;
 }
 
 .our-team-list {
 
-    border-radius: 0px 0px 4px 4px;
+
     display: flex;
     gap: 24px;
 }
@@ -348,12 +338,11 @@ a.contacts.link {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     margin-bottom: 8px;
 }
 
 .team-name {
-    margin-bottom: 8px;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -383,15 +372,15 @@ a.contacts.link {
     color: var(--gray-background-color);
     letter-spacing: 0.02em;
     line-height: 1.5;
-    margin-top: 16px;
-    margin-right: 880px;
-    margin-left: 0px;
+    width: 264px;
+   
 
 }
 
 .footer {
     background-color: var(--secondary-color);
-    padding: 100px 0
+    padding: 100px 0;
+    display: block;
 }
 
 .footer-logo {
@@ -419,7 +408,6 @@ a.contacts.link {
 .button_navportfolio {
     background-color: var(--gray-background-color);
     color: var(--accent-color);
-    border: 1px solid #e7e9fc;
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
@@ -428,7 +416,6 @@ a.contacts.link {
     letter-spacing: 0.04em;
     text-decoration: none;
     padding: 12px 24px;
-    border: 1px solid #e7e9fc;
     border-radius: 4px;
 }
 
@@ -462,7 +449,6 @@ a.contacts.link {
 
 .div-portfolio-item {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
     border-top: none;
    
 }
