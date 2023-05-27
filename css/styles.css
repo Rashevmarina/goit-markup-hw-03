@@ -285,7 +285,6 @@ body {
     list-style: none;
     width: calc((100% - 48px)/3);
     border: 1px solid #E7E9FC;
-
 }
 
 /* -------------------section 4 --------------------*/
@@ -417,6 +416,7 @@ body {
     text-decoration: none;
     padding: 12px 24px;
     border-radius: 4px;
+    border: 1px solid #E7E9FC;
 }
 
 .list-portfoliobutton {
