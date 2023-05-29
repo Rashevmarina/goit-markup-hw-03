@@ -68,9 +68,6 @@ body {
     padding: 0px;
     gap: 40px;
     text-decoration: none;
-    margin-left: 76px;
-    margin-right: 156px;
-
 }
 
 .web {
@@ -131,7 +128,7 @@ body {
     display: flex;
     gap: 8px;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: auto;
 }
 
 .address-list {
